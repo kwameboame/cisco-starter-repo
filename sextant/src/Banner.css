@@ -1,0 +1,10 @@
+.banner{
+    padding:20px 0 !important;
+    background-color: #450877;
+    color: #fff !important;
+}
+
+.banner h1{
+    font-size: 24px !important;
+    margin: 0 !important;
+}
