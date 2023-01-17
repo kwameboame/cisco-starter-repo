@@ -1,6 +1,7 @@
 import Banner from './Banner.js';
 import Exhibit from './Exhibit.js';
 import IpAddress from './IpAddress.js';
+import PylonSocket from './PylonSocket.js';
 import './App.css';
 
 function App() {
@@ -13,6 +14,9 @@ function App() {
         </Exhibit>
         <Exhibit name="IPv6 Adress">
           <IpAddress url='https://api64.ipify.org?format=json' />
+        </Exhibit>
+        <Exhibit name="Pylon Latency">
+          <PylonSocket />
         </Exhibit>
       </div>
     </div>
