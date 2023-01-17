@@ -1,5 +1,6 @@
 import Banner from './Banner.js';
 import Exhibit from './Exhibit.js';
+import IpAddress from './IpAddress.js';
 import './App.css';
 
 function App() {
@@ -7,21 +8,11 @@ function App() {
     <div className="App">
       <Banner bannerTitle="Sextant Dashboard" />
       <div className='exhibits'>
-        <Exhibit name="Data1">
-          <p>
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
-          </p>
+        <Exhibit name="IPv4 Adress">
+          <IpAddress url='https://api.ipify.org?format=json' />
         </Exhibit>
-
-        <Exhibit name="Data2">
-          <p>
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
-          </p>
-        </Exhibit>
-        <Exhibit name="Data3">
-          <p>
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
-          </p>
+        <Exhibit name="IPv6 Adress">
+          <IpAddress url='https://api64.ipify.org?format=json' />
         </Exhibit>
       </div>
     </div>

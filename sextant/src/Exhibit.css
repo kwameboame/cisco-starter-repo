@@ -3,4 +3,23 @@
     border:1px solid #bbb;
     margin:10px 7px;
     border-radius: 10px 10px;
+    padding:0 20px 20px;
+}
+
+.exTitle{
+    font-size: 16px;
+    background-color: #490a76;
+    color: #fff;;
+    padding:10px 15px !important;
+    margin: 0 -20px 30px -20px;
+    border-radius: 10px 10px 0 0;
+}
+
+.exContent{
+    padding:0 20px 20px !important;
+}
+
+.ipAddress{
+    font-size: 28px;
+    font-weight: bold;
 }
